@@ -1,4 +1,6 @@
+<style>#ethdoc-viewer{ font-size: 0.8em; padding: 1em; } #ethdoc-viewer .lead{ font-size: 1em; } #ethdoc-viewer table { width: 50%; } #ethdoc-viewer hr { margin: 0; margin-bottom: 0.5rem; } #ethdoc-viewer p{ margin-bottom: 0.5rem; }</style>
 
+<div id="ethdoc-viewer">
 
 ### SampleERC865Token
 
@@ -8,121 +10,277 @@
 
 ###### name - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-string
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>string</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### approve - read
 
-Approve the passed address to spend the specified amount of tokens on behalf of msg.sender. \* Beware that changing an allowance with this method brings the risk that someone may use both the old and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards: https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+Approve the passed address to spend the specified amount of tokens on behalf of msg.sender. * Beware that changing an allowance with this method brings the risk that someone may use both the old and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards: https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_spender
+<th>Name</th>
 
-address
+<th>Type</th>
 
-The address which will spend the funds.
+<th>Description</th>
 
-\_value
+</tr>
 
-uint256
+</thead>
 
-The amount of tokens to be spent.
+<tbody>
+
+<tr>
+
+<td>_spender</td>
+
+<td>address</td>
+
+<td>The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_value</td>
+
+<td>uint256</td>
+
+<td>The amount of tokens to be spent.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### transferPreSigned - read
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_signature
+<th>Name</th>
 
-bytes
+<th>Type</th>
 
-bytes The signature, issued by the owner.
+<th>Description</th>
 
-\_to
+</tr>
 
-address
+</thead>
 
-address The address which you want to transfer to.
+<tbody>
 
-\_value
+<tr>
 
-uint256
+<td>_signature</td>
 
-uint256 The amount of tokens to be transferred.
+<td>bytes</td>
 
-\_fee
+<td>bytes The signature, issued by the owner.</td>
 
-uint256
+</tr>
 
-uint256 The amount of tokens paid to msg.sender, by the owner.
+<tr>
 
-\_nonce
+<td>_to</td>
 
-uint256
+<td>address</td>
 
-uint256 Presigned transaction number.
+<td>address The address which you want to transfer to.</td>
+
+</tr>
+
+<tr>
+
+<td>_value</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens to be transferred.</td>
+
+</tr>
+
+<tr>
+
+<td>_fee</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens paid to msg.sender, by the owner.</td>
+
+</tr>
+
+<tr>
+
+<td>_nonce</td>
+
+<td>uint256</td>
+
+<td>uint256 Presigned transaction number.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### transferFromContract - read
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
@@ -134,45 +292,117 @@ No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-uint256
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### recover - view
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-hash
+<th>Name</th>
 
-bytes32
+<th>Type</th>
 
-bytes32 message, the hash is the signed message. What is recovered is the signer address.
+<th>Description</th>
 
-sig
+</tr>
 
-bytes
+</thead>
 
-bytes signature, the signature is generated using web3.eth.sign()
+<tbody>
+
+<tr>
+
+<td>hash</td>
+
+<td>bytes32</td>
+
+<td>bytes32 message, the hash is the signed message. What is recovered is the signer address.</td>
+
+</tr>
+
+<tr>
+
+<td>sig</td>
+
+<td>bytes</td>
+
+<td>bytes signature, the signature is generated using web3.eth.sign()</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-address
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>address</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
@@ -180,169 +410,397 @@ address
 
 Transfer tokens from one address to another
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_from
+<th>Name</th>
 
-address
+<th>Type</th>
 
-address The address which you want to send tokens from
+<th>Description</th>
 
-\_to
+</tr>
 
-address
+</thead>
 
-address The address which you want to transfer to
+<tbody>
 
-\_value
+<tr>
 
-uint256
+<td>_from</td>
 
-uint256 the amount of tokens to be transferred
+<td>address</td>
+
+<td>address The address which you want to send tokens from</td>
+
+</tr>
+
+<tr>
+
+<td>_to</td>
+
+<td>address</td>
+
+<td>address The address which you want to transfer to</td>
+
+</tr>
+
+<tr>
+
+<td>_value</td>
+
+<td>uint256</td>
+
+<td>uint256 the amount of tokens to be transferred</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### getNonce - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_owner
+<th>Name</th>
 
-address
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>_owner</td>
+
+<td>address</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-nonce
+<th>Name</th>
 
-uint256
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>nonce</td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### decimals - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-uint8
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>uint8</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### approvePreSigned - read
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_signature
+<th>Name</th>
 
-bytes
+<th>Type</th>
 
-bytes The signature, issued by the owner.
+<th>Description</th>
 
-\_spender
+</tr>
 
-address
+</thead>
 
-address The address which will spend the funds.
+<tbody>
 
-\_value
+<tr>
 
-uint256
+<td>_signature</td>
 
-uint256 The amount of tokens to allow.
+<td>bytes</td>
 
-\_fee
+<td>bytes The signature, issued by the owner.</td>
 
-uint256
+</tr>
 
-uint256 The amount of tokens paid to msg.sender, by the owner.
+<tr>
 
-\_nonce
+<td>_spender</td>
 
-uint256
+<td>address</td>
 
-uint256 Presigned transaction number.
+<td>address The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_value</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens to allow.</td>
+
+</tr>
+
+<tr>
+
+<td>_fee</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens paid to msg.sender, by the owner.</td>
+
+</tr>
+
+<tr>
+
+<td>_nonce</td>
+
+<td>uint256</td>
+
+<td>uint256 Presigned transaction number.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### decreaseApproval - read
 
-Decrease the amount of tokens that an owner allowed to a spender. \* approve should be called when allowed\[\_spender\] == 0. To decrement allowed value is better to use this function to avoid 2 calls (and wait until the first transaction is mined) From MonolithDAO Token.sol
+Decrease the amount of tokens that an owner allowed to a spender. * approve should be called when allowed[_spender] == 0\. To decrement allowed value is better to use this function to avoid 2 calls (and wait until the first transaction is mined) From MonolithDAO Token.sol
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_spender
+<th>Name</th>
 
-address
+<th>Type</th>
 
-The address which will spend the funds.
+<th>Description</th>
 
-\_subtractedValue
+</tr>
 
-uint256
+</thead>
 
-The amount of tokens to decrease the allowance by.
+<tbody>
+
+<tr>
+
+<td>_spender</td>
+
+<td>address</td>
+
+<td>The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_subtractedValue</td>
+
+<td>uint256</td>
+
+<td>The amount of tokens to decrease the allowance by.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
@@ -352,113 +810,265 @@ Gets the balance of the specified address.
 
 Return : An uint256 representing the amount owned by the passed address.
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_owner
+<th>Name</th>
 
-address
+<th>Type</th>
 
-The address to query the the balance of.
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>_owner</td>
+
+<td>address</td>
+
+<td>The address to query the the balance of.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-uint256
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### decreaseApprovalPreSigned - read
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_signature
+<th>Name</th>
 
-bytes
+<th>Type</th>
 
-bytes The signature, issued by the owner
+<th>Description</th>
 
-\_spender
+</tr>
 
-address
+</thead>
 
-address The address which will spend the funds.
+<tbody>
 
-\_subtractedValue
+<tr>
 
-uint256
+<td>_signature</td>
 
-uint256 The amount of tokens to decrease the allowance by.
+<td>bytes</td>
 
-\_fee
+<td>bytes The signature, issued by the owner</td>
 
-uint256
+</tr>
 
-uint256 The amount of tokens paid to msg.sender, by the owner.
+<tr>
 
-\_nonce
+<td>_spender</td>
 
-uint256
+<td>address</td>
 
-uint256 Presigned transaction number.
+<td>address The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_subtractedValue</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens to decrease the allowance by.</td>
+
+</tr>
+
+<tr>
+
+<td>_fee</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens paid to msg.sender, by the owner.</td>
+
+</tr>
+
+<tr>
+
+<td>_nonce</td>
+
+<td>uint256</td>
+
+<td>uint256 Presigned transaction number.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### owner - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-address
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>address</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### symbol - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-string
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>string</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
@@ -466,153 +1076,357 @@ string
 
 transfer token for a specified address
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_to
+<th>Name</th>
 
-address
+<th>Type</th>
 
-The address to transfer to.
+<th>Description</th>
 
-\_value
+</tr>
 
-uint256
+</thead>
 
-The amount to be transferred.
+<tbody>
+
+<tr>
+
+<td>_to</td>
+
+<td>address</td>
+
+<td>The address to transfer to.</td>
+
+</tr>
+
+<tr>
+
+<td>_value</td>
+
+<td>uint256</td>
+
+<td>The amount to be transferred.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### increaseApprovalPreSigned - read
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_signature
+<th>Name</th>
 
-bytes
+<th>Type</th>
 
-bytes The signature, issued by the owner.
+<th>Description</th>
 
-\_spender
+</tr>
 
-address
+</thead>
 
-address The address which will spend the funds.
+<tbody>
 
-\_addedValue
+<tr>
 
-uint256
+<td>_signature</td>
 
-uint256 The amount of tokens to increase the allowance by.
+<td>bytes</td>
 
-\_fee
+<td>bytes The signature, issued by the owner.</td>
 
-uint256
+</tr>
 
-uint256 The amount of tokens paid to msg.sender, by the owner.
+<tr>
 
-\_nonce
+<td>_spender</td>
 
-uint256
+<td>address</td>
 
-uint256 Presigned transaction number.
+<td>address The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_addedValue</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens to increase the allowance by.</td>
+
+</tr>
+
+<tr>
+
+<td>_fee</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens paid to msg.sender, by the owner.</td>
+
+</tr>
+
+<tr>
+
+<td>_nonce</td>
+
+<td>uint256</td>
+
+<td>uint256 Presigned transaction number.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### decimalValue - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-uint256
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
-###### \_value - view
+###### _value - view
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
 No parameters
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-uint256
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### increaseApproval - read
 
-Increase the amount of tokens that an owner allowed to a spender. \* approve should be called when allowed\[\_spender\] == 0. To increment allowed value is better to use this function to avoid 2 calls (and wait until the first transaction is mined) From MonolithDAO Token.sol
+Increase the amount of tokens that an owner allowed to a spender. * approve should be called when allowed[_spender] == 0\. To increment allowed value is better to use this function to avoid 2 calls (and wait until the first transaction is mined) From MonolithDAO Token.sol
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_spender
+<th>Name</th>
 
-address
+<th>Type</th>
 
-The address which will spend the funds.
+<th>Description</th>
 
-\_addedValue
+</tr>
 
-uint256
+</thead>
 
-The amount of tokens to increase the allowance by.
+<tbody>
+
+<tr>
+
+<td>_spender</td>
+
+<td>address</td>
+
+<td>The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_addedValue</td>
+
+<td>uint256</td>
+
+<td>The amount of tokens to increase the allowance by.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bool
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bool</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
@@ -622,103 +1436,239 @@ Function to check the amount of tokens that an owner allowed to a spender.
 
 Return : A uint256 specifying the amount of tokens still available for the spender.
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_owner
+<th>Name</th>
 
-address
+<th>Type</th>
 
-address The address which owns the funds.
+<th>Description</th>
 
-\_spender
+</tr>
 
-address
+</thead>
 
-address The address which will spend the funds.
+<tbody>
+
+<tr>
+
+<td>_owner</td>
+
+<td>address</td>
+
+<td>address The address which owns the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_spender</td>
+
+<td>address</td>
+
+<td>address The address which will spend the funds.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-uint256
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### recoverPreSignedHash - view
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_token
+<th>Name</th>
 
-address
+<th>Type</th>
 
-address The address of the token
+<th>Description</th>
 
-\_functionSig
+</tr>
 
-bytes4
+</thead>
 
-\_spender
+<tbody>
 
-address
+<tr>
 
-address The address which will spend the funds.
+<td>_token</td>
 
-\_value
+<td>address</td>
 
-uint256
+<td>address The address of the token</td>
 
-uint256 The amount of tokens.
+</tr>
 
-\_fee
+<tr>
 
-uint256
+<td>_functionSig</td>
 
-uint256 The amount of tokens paid to msg.sender, by the owner.
+<td>bytes4</td>
 
-\_nonce
+<td></td>
 
-uint256
+</tr>
 
-uint256 Presigned transaction number.
+<tr>
+
+<td>_spender</td>
+
+<td>address</td>
+
+<td>address The address which will spend the funds.</td>
+
+</tr>
+
+<tr>
+
+<td>_value</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens.</td>
+
+</tr>
+
+<tr>
+
+<td>_fee</td>
+
+<td>uint256</td>
+
+<td>uint256 The amount of tokens paid to msg.sender, by the owner.</td>
+
+</tr>
+
+<tr>
+
+<td>_nonce</td>
+
+<td>uint256</td>
+
+<td>uint256 Presigned transaction number.</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-bytes32
+<th>Name</th>
+
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td></td>
+
+<td>bytes32</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 * * *
 
 ###### transferOwnership - read
 
-**\*\*Add Documentation for the method here\*\***
+****Add Documentation for the method here****
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-newOwner
+<th>Name</th>
 
-address
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>newOwner</td>
+
+<td>address</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
@@ -728,16 +1678,40 @@ No parameters
 
 ###### constructor - read
 
-Name
+<table class="table table-sm table-bordered table-striped">
 
-Type
+<thead>
 
-Description
+<tr>
 
-\_tokenSupply
+<th>Name</th>
 
-uint256
+<th>Type</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>_tokenSupply</td>
+
+<td>uint256</td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Returns:
 
 No parameters
+
+</div>
